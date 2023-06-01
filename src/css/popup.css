@@ -175,11 +175,12 @@ textarea {
 
 @media screen and (max-width: 991px) {
   #nb-popup .modal-body {
-    padding: 30px 10px;
+    padding: 35px 10px;
+    margin-top: 40px;
   }
 
-  #nb-popup .pop-row {
-    row-gap: 20px;
+  #nb-popup .popImgCol{
+    display: none ;
   }
 
   #nb-popup .popup-img,
@@ -187,18 +188,18 @@ textarea {
     height: auto;
   }
 
-  .popup-cntnt {
-    padding: 30px 20px;
+  #nb-popup .popup-cntnt {
+    padding: 30px 25px;
   }
 
-  .ourPopup .modal-header {
-    top: 2px;
+  #nb-popup .ourPopup .modal-header {
+    top: 40px;
     right: 2px;
   }
 
-  .ourPopup .btn-close {
-    width: 25px;
-    height: 25px;
-    font-size: 12px;
+  #nb-popup .ourPopup .btn-close {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
   }
 }
